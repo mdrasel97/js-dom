@@ -1,0 +1,23 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.final{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.box{
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .final{
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
